@@ -6,6 +6,29 @@
 
   <head>
     <title>Quality Sudz Handmade Soaps</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+     <style>
+      table {
+        border-collapse: collapse;
+        width: 100%      
+      }
+
+      th, td{
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      tr:nth-child(odd) {background-color: #f2f2f2;}
+
+      tr:hover {background-color: #55D8FF;}
+
+      th {
+        background-color: #79ADBD;
+        color: white;
+      }
+
+    </style>
   </head>
 
   <body>
@@ -19,7 +42,7 @@
           </li>
 
           <li>
-            <a href="about.html">About</a>
+            <a class="active" href="about.html">About</a>
           </li>
 
           <li>
@@ -34,7 +57,7 @@
             <a href="location.html">Where are we Located?</a>
           </li>
 
-          <li>
+          <li style="float:right">
             <a href="reviews.html">Reviews</a>
           </li>
         </ul>
@@ -44,53 +67,76 @@
     </header>
     <h3><i>Quality Handmade Soaps</i></h3>
 
-    <h2>Our Add-ons for Soap</h2>
- <img alt='Soapbars'
+    <img id="picture" alt='Soapbars'
          src='soapbar.png'
          width='200'>
 
+    <h2 id="heading">Our Add-ons for Soap</h2>
+
          <p>At Quality Sudzs, we offer a long list of scents, colors, and mix-ins to create the perfect soap for you. Down below, you can find three lists that show what sents we have, what colors we can make your soup, and the different kinds of mix-ins we can add to make you soup even more personalized then it already is.</p>
- 
-    <h3>Scents</h3>
-    <ul>
-        <li>Vanilla</li>
-        <li>Lavender</li>
-        <li>Cinnamon</li>
-        <li>Eucalyptus</li>
-        <li>Honey</li>
-        <li>Peppermint</li>
-        <li>Mint</li>
-        <li>Oregano</li>
-        <li>Rose</li>
-        <li>Lemon</li>
-        <li>Tea Tree</li>
-    </ul>
-    
-    <h3>Colors</h3>
-    <ul>
-      <li>Red</li>
-      <li>Orange</li>
-      <li>Yellow</li>
-      <li>Green</li>
-      <li>Blue-green</li>
-      <li>Blue</li>
-      <li>Purple</li>
-      <li>Violet</li>
-    </ul>
+ <table>
+  <thead>
+    <tr>
+      <th>Scents</th>
+      <th>Colors</th>
+      <th>Mix-ins</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Vanilla</td>
+      <td>White</td>
+      <td>Herb</td>
+    </tr>
+    <tr>
+      <td>Lavender</td>
+      <td>White-Violet</td>
+      <td>Flower Petals</td>
+    </tr>
+    <tr>
+      <td>Cinnamon</td>
+      <td>Red-Orange</td>
+      <td>Herb</td>
+    </tr>
+    <tr>
+      <td>Eucalyptus</td>
+      <td>Green</td>
+      <td>Herb</td>
+    </tr>
+    <tr>
+      <td>Honey</td>
+      <td>Golden-Orange</td>
+      <td>Natural</td>
+    </tr>
+      <td>Peppermint</td>
+      <td>Red &amp; White</td>
+      <td>Herb</td>
+    </tr>
+    <tr>
+      <td>Lemon</td>
+      <td>Yellow</td>
+      <td>Fruit</td>
+    </tr>
+    <tr>
+      <td>Rose</td>
+      <td>Red</td>
+      <td>Flower Petals</td>
+    </tr>
+    <tr>
+      <td>Peach-Orange</td>
+      <td>Cream-Orange</td>
+      <td>Toy Inside for kids</td>
+    </tr>
+  </tbody>
+</table>
 
-    <h3>Mix-ins</h3>
-    <ul>
-      <li>Flower petals</li>
-      <li>Antibacterial Beads</li>
-      <li>Epson salt</li>
-      <li>Oats</li>
-      <li>Herbs</li>
-      <li>Toy inside for kids</li>
-    </ul>
+  <p>These are just a few of the comibinations of scents, colors, and mix-ins that we have here at Quality Sudz. We have over two million combinations that you can make when you come down to our great store.</p>
 
+  <section>
     <footer>
-         <p>Copyright 2099 by Peyton Busch &amp; Jeffrey Ragan</p>
+         <p><b>Copyright 2099 by Peyton Busch &amp; Jeffrey Ragan</b></p>
     </footer>
+  </section>
   </body>
 
 </html>
